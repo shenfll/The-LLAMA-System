@@ -1,0 +1,33 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  background-attachment: fixed;
+}
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  height: 100%;
+  padding: 30px;
+  background-image: linear-gradient(to bottom right, #7777f7, #77b777);
+}
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  transition: box-shadow 0.4s;
+  box-shadow: 0px 4px black;
+  text-decoration: none;
+  border: 3px solid black;
+  padding: 2px;
+  margin: 5px;
+  color: black;
+}
+.button:hover {
+  box-shadow: 0px 0px black;
+}
+img {
+  width: 300px;
+  border-radius: 10px;
+}
