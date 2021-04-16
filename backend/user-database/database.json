@@ -1,0 +1,36 @@
+{
+  "users": {
+    "places": {
+      "amymorgan79@gmail.com": [
+        "woodcock"
+      ],
+      "rosterh1@nycap.rr.com": [
+        "whipple"
+      ],
+      "albin_patty77@yahoo.com": [
+        "kinns"
+      ],
+      "wheelsx5@yahoo.com": [
+        "woodcock"
+      ],
+      "caroljo67@gmail.com": [
+        "hayes_moe"
+      ],
+      "nhoffman@nycap.rr.com": [
+        "kinns",
+        "shenantaha",
+        "woodcock",
+        "zim_coons",
+        "george_smith"
+      ]
+    },
+    "initials": {
+      "amymorgan79@gmail.com": "am",
+      "rosterh1@nycap.rr.com": "??",
+      "albin_patty77@yahoo.com": "??",
+      "wheelsx5@yahoo.com": "??",
+      "caroljo67@gmail.com": "??",
+      "nhoffman@nycap.rr.com": "nh"
+    }
+  }
+}
