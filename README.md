@@ -8,4 +8,5 @@ A one stop resource so that people can find all of the parks, trails, and nature
 Identify connections between the parks, trails, and nature preserves so that people can go from one to another if they want to explore or run/bike a greater distance that a particilar location/trail offers.
 This website will help end-users plan outings. For example, a cross country team can plan a long training run through existing trails and preserves.
 A link to a separate webpage called TEA LLAMA (TEA stands for Trail Efficiency Algorithm) identifies the shortest distance between connections. To do this a minimum spanning tree algorithm was used to calculate the shortest distance between existing points.
-Students contributors:  Nitya B., Ryan G., Aryan M., Jonah M., Josiah N., Hana O., Pranamya P., Max S., Ethan W. , and Larry Y. 
+Student contributors for TEA (2020):  Nitya B., Ryan G., Aryan M., Jonah M., Josiah N., Hana O., Pranamya P., Max S., Ethan W. , and Larry Y. 
+Student contributors for the LLAMA System (2021): Nitya B., Jonah M., Josiah N., Pranamya P., Max S., and Larry Y. 
