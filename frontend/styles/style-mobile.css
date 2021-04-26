@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&display=swap');
 .main-svg {
   background-color: transparent !important;
 }
 html {
   background-image: linear-gradient(to bottom right, blue, green);
+}
+#h1 h1 {
+  font-family: 'Londrina Solid', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 300!important;
 }
 * {
   scrollbar-width: thin;
@@ -74,12 +80,12 @@ html {
   background-color: #0d80ee;
   outline: none;
 }
-#myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > ul:nth-child(2){
+myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > ul:nth-child(2){
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-#myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > ul:nth-child(2) > li, #myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:nth-child(1), #myModal4 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:nth-child(1){
+#myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > ul:nth-child(2) > li, #myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:nth-child(1), #myModal4 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input{
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
@@ -100,11 +106,11 @@ html {
   background-color: #0d80ee;
   outline: none;
 }
-#myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:nth-child(1), #myModal4 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:nth-child(1){
+#myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:nth-child(1), #myModal4 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input{
   margin-bottom: 0px;
   line-height: 30px;
 }
-#myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > ul:nth-child(2) > li:hover, #myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > ul:nth-child(2) > li:focus,#myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:nth-child(1):hover, #myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:nth-child(1):focus,#myModal4 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:nth-child(1):hover, #myModal4 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:nth-child(1):focus {
+#myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > ul:nth-child(2) > li:hover, #myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > ul:nth-child(2) > li:focus,#myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:nth-child(1):hover, #myModal3 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:nth-child(1):focus,#myModal4 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:hover, #myModal4 > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > input:focus {
   background-color: #cecece;
   outline: none;
 }

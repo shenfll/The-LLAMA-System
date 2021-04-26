@@ -6,7 +6,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Clifton Commons",
-        text: "This is the go to place in Clifton Park for all ages. It has baseball, soccer fields, two ice rinks (excellent for snowball fights in summer, ice hockey, and ice skating), basketball courts, an amazing playground, and an amphitheatre.<ul><li>Restrooms Available<li>Pet friendly - Dogs must be on a leash</li><li>Acreage: 81</li><li>Hours: dawn to dusk</li><li>Parking: 🚙🚙🚙</li><li>Website: <a href='https://www.cliftonpark.org/index.php/departmen?ts/parks-recreation-community-affairs/parks/' target='_blank'>https://www.cliftonpark.org/index.php/departments/parks-recreation-community-affairs/parks/</a></li></ul>",
+        text: "This is the go to place in Clifton Park for all ages. It has baseball, soccer fields, two ice rinks (excellent for snowball fights in summer, ice hockey, and ice skating), basketball courts, an amazing playground, and an amphitheatre.<ul><li>LLAMA Challenge:</li><li>Restrooms Available<li>Pet friendly - Dogs must be on a leash</li><li>Acreage: 81</li><li>Hours: dawn to dusk</li><li>Parking: 🚙🚙🚙</li><li>Website: <a href='https://www.cliftonpark.org/index.php/departmen?ts/parks-recreation-community-affairs/parks/' target='_blank'>https://www.cliftonpark.org/index.php/departments/parks-recreation-community-affairs/parks/</a></li></ul>",
         image: "https://www.cliftonpark.com/hot-spots/clifton-commons/images/clifton-common.jpg",
       },
     },
@@ -26,7 +26,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Kinns Road Park",
-        text: "This beautiful pine forest has lots to offer. Many walking trails weave over hills and streams. Picnic tables are located near the entrance. Great for walking, hiking, orienteering, and picnicking. During winter months, volunteers typically groom trails for cross-country skiing. Snowshoeing is also welcome.<ul><li>Letterboxes</li><li>Pet friendly - dogs can be off-leash with a special permit</li><li>Acreage: 64</li><li>Hours: dawn to dusk</li><li>Parking: 🚙 (plus bike racks)</li></ul>",
+        text: "This beautiful pine forest has lots to offer. Many walking trails weave over hills and streams. Picnic tables are located near the entrance. Great for walking, hiking, orienteering, and picnicking. During winter months, volunteers typically groom trails for cross-country skiing. Snowshoeing is also welcome.<ul><li>LLAMA Challenge:</li><li>Letterboxes</li><li>Pet friendly - dogs can be off-leash with a special permit</li><li>Acreage: 64</li><li>Hours: dawn to dusk</li><li>Parking: 🚙 (plus bike racks)</li></ul>",
         image: "pics/MainEntrance_KinnsRddone.jpg",
       },
     },
@@ -36,7 +36,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Dwaas Kill Nature Preserve",
-        text: "Established in 2005, the Dwaas Kill Nature Preserve is ceated mostly of untouched natural habitat that plays a key role in the health of this area’s ecosystem and provides a home for many plants and animals. This preserve is perfect for hiking, fishing, snowshoeing, and cross-country skiing.<ul><li>Acreage: 240</li><li>Hours: 5:30am to 10:00pm</li><li>Parking: 🚙</li></ul>",   
+        text: "Established in 2005, the Dwaas Kill Nature Preserve is ceated mostly of untouched natural habitat that plays a key role in the health of this area’s ecosystem and provides a home for many plants and animals. This preserve is perfect for hiking, fishing, snowshoeing, and cross-country skiing.<ul><li>LLAMA Challenge:</li><li>Acreage: 240</li><li>Hours: 5:30am to 10:00pm</li><li>Parking: 🚙</li></ul>",   
         image: "https://anationofmoms.com/wp-content/uploads/2018/09/DwaasKill4-1200x800.jpg",
       },
     },
@@ -46,7 +46,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Garnsey Park",
-        text: "This park has meadows, a ridgeline, two ponds, a wetland, smaller trails, and a main 2 mile loop trail. It is great for walking, hiking, cross-country skiing, and trail running. Garnsey Park also has the second highest point in Rexford and it is the site of the Rexford Veterans Memorial. Also, it used to be a farm that grew berries.<ul><li>Berry-picking</li><li>Storyboards</li><li>Letterboxes</li><li>Pet friendly - Dogs must be on leash</li><li>Acreage: 150</li><li>Hours: 5:30am to 10pm</li><li>Parking: 🚙🚙(plus bike racks)</li></ul>",
+        text: "This park has meadows, a ridgeline, two ponds, a wetland, smaller trails, and a main 2 mile loop trail. It is great for walking, hiking, cross-country skiing, and trail running. Garnsey Park also has the second highest point in Rexford and it is the site of the Rexford Veterans Memorial. Also, it used to be a farm that grew berries.<ul><li>LLAMA Challenge:</li><li>Berry-picking</li><li>Storyboards</li><li>Letterboxes</li><li>Pet friendly - Dogs must be on leash</li><li>Acreage: 150</li><li>Hours: 5:30am to 10pm</li><li>Parking: 🚙🚙(plus bike racks)</li></ul>",
         image: "pics/garnseydone.jpg",
       },
     },
@@ -56,17 +56,17 @@ var mydata = {
       intersection: false,
       popup: {
         title: "George T Smith Park",
-        text: "This park offers plenty of shade to keep the playground equipment from getting too hot during the summer months. There is a good mix of new and classic equipment. There is also an area for small toddlers which is a huge perk. There are also tennis courts, basketball, and walking trails.<ul><li>Not pet friendly</li><li>Hours: 5:00AM to 10:00PM</li><li>Parking: 🚙🚙</li></ul>",
+        text: "This park offers plenty of shade to keep the playground equipment from getting too hot during the summer months. There is a good mix of new and classic equipment. There is also an area for small toddlers which is a huge perk. There are also tennis courts, basketball, and walking trails.<ul><li>LLAMA Challenge: flyer on tree between two park boards</li><li>Not pet friendly</li><li>Hours: 5:00AM to 10:00PM</li><li>Parking: 🚙🚙</li></ul>",
         image: "pics/GeorgeTSmithparkdone.jpg",
       },
     },
     longkill: {
-      name: "Longkill Park",
+      name: "Jewett Park",
       coords: "42.917288, -73.821698",
       intersection: false,
       popup: {
-        title: "Longkill Park",
-        text: "It has baseball fields, a basketball court, tennis courts, soccer fields, and a playground.  It is great for sledding as it has a big hill.<ul><li>Acreage: unknown</li><li>Hours: 5:00AM to 9:00PM</li></ul>",
+        title: "Jewett Park",
+        text: "It has baseball fields, a basketball court, tennis courts, soccer fields, and a playground.  It is great for sledding as it has a big hill.<ul><li>LLAMA Challenge: flyer on tree in parking lot</li><li>Acreage: unknown</li><li>Hours: 5:00AM to 9:00PM</li></ul>",
         image: "pics/Longkill_Park_playareadone.jpg",
       },
     },
@@ -76,7 +76,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Usher's Road State Park",
-        text: "Usher's Road State Park is a large forest which has two main trails which offers a number of activity options and is accessible year-round. It is great for mountain biking, hiking, cross-country skiing, bird watching, and snowshoeing.<ul><li>Acreage: 122</li><li>Hours: Dawn to dusk</li></ul>",
+        text: "Usher's Road State Park is a large forest which has two main trails which offers a number of activity options and is accessible year-round. It is great for mountain biking, hiking, cross-country skiing, bird watching, and snowshoeing.<ul><li>LLAMA Challenge:</li><li>Acreage: 122</li><li>Hours: Dawn to dusk</li></ul>",
         image: "https://uncoveringnewyork.com/wp-content/uploads/2020/04/Ushers-Road-State-Forest-5465-600x450.jpg",
       },
     },
@@ -116,7 +116,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Hayes Nature Park at Moe Road",
-        text: "The Hayes Nature Park Trail is a trail loop that is around 1.4 miles long, and over a mile of that is ADA-accessible. There are two entrances: this one at at Moe Road and another at Liberty Way. It is nice for all ages and is an easy hike. Great for hiking,walking, cross-country skiing, snowshoeing, and running. Though the trail is gravel, it is relatively smooth and wheelchair friendly but there are no handicapped spots in the parking lot. There is a bike rack and picnic table at this entrance. The Clifton Park/Halfmoon Public Library has sponsored a book reading by placing placards along the trail with pages from children's books starting at this entrance.<ul><li>Letterboxes</li><li>Storyboards</li><li>Pet friendly - Dogs must be on leash</li><li>Acreage: 48</li><li>Hours: dawn to dusk</li><li>Parking: 🚙 (plus bike racks)</li></ul>",
+        text: "The Hayes Nature Park Trail is a trail loop that is around 1.4 miles long, and over a mile of that is ADA-accessible. There are two entrances: this one at at Moe Road and another at Liberty Way. It is nice for all ages and is an easy hike. Great for hiking,walking, cross-country skiing, snowshoeing, and running. Though the trail is gravel, it is relatively smooth and wheelchair friendly but there are no handicapped spots in the parking lot. There is a bike rack and picnic table at this entrance. The Clifton Park/Halfmoon Public Library has sponsored a book reading by placing placards along the trail with pages from children's books starting at this entrance.<ul><li>LLAMA Challenge:</li><li>Letterboxes</li><li>Storyboards</li><li>Pet friendly - Dogs must be on leash</li><li>Acreage: 48</li><li>Hours: dawn to dusk</li><li>Parking: 🚙 (plus bike racks)</li></ul>",
         image: "https://capitaldistrictmoms.com/wp-content/uploads/2020/06/IMG_2342.jpg",
       },
     },
@@ -146,7 +146,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Veterans Memorial Park",
-        text: "This park can be found at Elks Trail and has softball fields and a pavilion. There are also beautiful wetlands and woodlands behind the ballfields. There are natural surface trails here where you can hike, walk, snowshoe, country ski, and just observe the wetlands. Trails are not groomed regularly and it is muddy due to the wetlands.<ul><li>Pet friendly - Dogs must be on leash</li><li>Acreage: 141</li><li>Hours: 6:00am to 9:00pm</li><li>Parking: 🚙🚙🚙</li></ul>",   
+        text: "This park can be found at Elks Trail and has softball fields and a pavilion. There are also beautiful wetlands and woodlands behind the ballfields. There are natural surface trails here where you can hike, walk, snowshoe, country ski, and just observe the wetlands. Trails are not groomed regularly and it is muddy due to the wetlands.<ul><li>LLAMA Challenge:</li><li>Pet friendly - Dogs must be on leash</li><li>Acreage: 141</li><li>Hours: 6:00am to 9:00pm</li><li>Parking: 🚙🚙🚙</li></ul>",   
         image: "https://cdn-assets.alltrails.com/uploads/photo/image/27292310/extra_large_e3550951162c8b91228e3f6dd3b18dee.jpg",
       },
     },
@@ -156,7 +156,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Woodcock Preserve",
-        text: "This preserve is made up of groomed trails with woodland and swamp areas. There are around 2.4 miles of trails on the property which are maintained by volunteers. There is wildlife here, with animals such as deer, coyote, hawks, and owls. The preserve is named after the small and chubby birds that dwell there.Bikes not permitted.<ul><li>Pet friendly - dogs must be on leash</li><li>Acreage: 72</li><li>Hours: sunrise to sunset</li><li>Parking:🚙</li><li>Website: <a href='https://www.saratogaplan.org/explore/public-preserves-trails/woodcock-preserve/' target='_blank'>https://www.saratogaplan.org/explore/public-preserves-trails/woodcock-preserve/</a></li></ul>",   
+        text: "This preserve is made up of groomed trails with woodland and swamp areas. There are around 2.4 miles of trails on the property which are maintained by volunteers. There is wildlife here, with animals such as deer, coyote, hawks, and owls. The preserve is named after the small and chubby birds that dwell there.Bikes not permitted.<ul><li>LLAMA Challenge:</li><li>Pet friendly - dogs must be on leash</li><li>Acreage: 72</li><li>Hours: sunrise to sunset</li><li>Parking:🚙</li><li>Website: <a href='https://www.saratogaplan.org/explore/public-preserves-trails/woodcock-preserve/' target='_blank'>https://www.saratogaplan.org/explore/public-preserves-trails/woodcock-preserve/</a></li></ul>",   
         image: "pics/WoodcockPreservedone.jpg",
       },
     },
@@ -186,7 +186,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Zim Smith Trail at Coons Crossing",
-        text: "This 9-mile trail connects Halfmoon to Ballston Spa.The Zim Smith Trail is open for both hiking and biking, and one recommended starting point is at Shenantaha Creek Park which is located about midway along the trail.  Website: http://newyorktrailheads.com/2016/04/09/Zim-Smith-Trail.html<ul><li>Restrooms Available<li>Hours: dawn to dusk</li><li>Parking:🚙</li></ul>",
+        text: "This 9-mile trail connects Halfmoon to Ballston Spa.The Zim Smith Trail is open for both hiking and biking, and one recommended starting point is at Shenantaha Creek Park which is located about midway along the trail. Website: http://newyorktrailheads.com/2016/04/09/Zim-Smith-Trail.html<ul><li>LLAMA Challenge:</li><li>Restrooms Available<li>Hours: dawn to dusk</li><li>Parking:🚙</li></ul>",
         image: "https://www.saratoga.com/images/zim-smith-trail.jpg",
       },
     },
@@ -196,7 +196,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Vischer Ferry Preserve - Whipple Truss Bridge",
-        text: "This entrance starts with the Whipple Truss foot bridge. Trails go off in several directions after crossing the bridge - perfect for walking, running, or biking.During winter months these trails are excellent for snow shoeing and cross country skiing. Excellent for bird watching. The Clifton Park/Halfmoon Public Library has displayed story boards heading west on the path. This is a historic landmark and bridge.<ul><li>Letterboxes</li><li>Storyboards</li><li>Pet friendly - Dogs must be on leash</li><li>Hours: dawn to dusk</li><li>Parking: 🚙🚙🚙</li></ul> ",
+        text: "This entrance starts with the Whipple Truss foot bridge. Trails go off in several directions after crossing the bridge - perfect for walking, running, or biking.During winter months these trails are excellent for snow shoeing and cross country skiing. Excellent for bird watching. The Clifton Park/Halfmoon Public Library has displayed story boards heading west on the path. This is a historic landmark and bridge.<ul><li>LLAMA Challenge:</li><li>Letterboxes</li><li>Storyboards</li><li>Pet friendly - Dogs must be on leash</li><li>Hours: dawn to dusk</li><li>Parking: 🚙🚙🚙</li></ul> ",
         image: "pics/whipplebridge.jpg",
       },
     },
@@ -206,7 +206,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Vischer Ferry Road Entrance",
-        text: "This entrance has a kayak boat launch and fishing area. There is a wide gravel walking, running, and biking path. During winter months these trails are excellent for snow shoeing and cross country skiing.<ul><li>Letterboxes</li><li>Pet friendly - Dogs must be on leash</li><li>Hours: dawn to dusk</li><li>Parking: 🚙🚙🚙</li></ul>", 
+        text: "This entrance has a kayak boat launch and fishing area. There is a wide gravel walking, running, and biking path. During winter months these trails are excellent for snow shoeing and cross country skiing.<ul><li>LLAMA Challenge:</li><li>Letterboxes</li><li>Pet friendly - Dogs must be on leash</li><li>Hours: dawn to dusk</li><li>Parking: 🚙🚙🚙</li></ul>", 
         image: "pics/VF_FerryRoad2.jpg",
       },
     },
@@ -216,7 +216,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Vischer Ferry Preserve - Clute's Dry Dock",
-        text: "This historic dry dock was established about the time the Erie Canal opened in 1825, and was probably enlarged when the canal was widened in 1842.Recently, the town of Clifton Park added a new bridge making it possible for visitors walking, running, biking access to the towpath trail. During winter months these trails are excellent for snow shoeing and cross country skiing.<ul><li><a href='https://www.shenet.org/about-us/historical-information-2/history-of-carillon-bells/' target='_blank'>One of the original carillon bell locations</a></li><li>Letterboxes</li><li>Pet friendly - dogs must be on leash</li><li>Hours: dawn to dusk</li><li>Parking: 🚙🚙🚙</li></ul>", 
+        text: "This historic dry dock was established about the time the Erie Canal opened in 1825, and was probably enlarged when the canal was widened in 1842.Recently, the town of Clifton Park added a new bridge making it possible for visitors walking, running, biking access to the towpath trail. During winter months these trails are excellent for snow shoeing and cross country skiing.<ul><li>LLAMA Challenge:</li><li><a href='https://www.shenet.org/about-us/historical-information-2/history-of-carillon-bells/' target='_blank'>One of the original carillon bell locations</a></li><li>Letterboxes</li><li>Pet friendly - dogs must be on leash</li><li>Hours: dawn to dusk</li><li>Parking: 🚙🚙🚙</li></ul>", 
         image: "pics/ClutesDryDock1.jpg",
       },
     },
@@ -226,7 +226,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Towpath - Lock 7 Lookout",
-        text: "This is a great place to see Lock 7 and the dam. A walking, running, and biking trail starts at the parking area and heads east along the Mohawk River and eventually joins the Vischer Ferry Nature Preserve.<ul><li>Letterboxes</li><li>Storyboards</li><li>Pet Friendly - Dogs must be on leash<li>Hours: 5:00AM to 10:00PM</li><li>Parking: 🚙</li></ul>",
+        text: "This is a great place to see Lock 7 and the dam. A walking, running, and biking trail starts at the parking area and heads east along the Mohawk River and eventually joins the Vischer Ferry Nature Preserve.<ul><li>LLAMA Challenge:</li><li>Letterboxes</li><li>Storyboards</li><li>Pet Friendly - Dogs must be on leash<li>Hours: 5:00AM to 10:00PM</li><li>Parking: 🚙</li></ul>",
         image: "https://lh5.googleusercontent.com/p/AF1QipP0s9cHzwQPuFauEGp2O2qQeQNl8LJ9MOI9edOb=w408-h306-k-no",
       },
     },
@@ -245,7 +245,7 @@ var mydata = {
       intersection: false,
       popup: { 
         title: "Collins Park",
-        text: "Collins park is near the intersection of Moe Rod and Route 146. Collins has a ball field,playground, nature trail, picnic areas, pavilion, and open-space areas for a variety of sporting activities and family gatherings. Reservations for group use may be made by calling the Clifton Park Town Office of Parks, Recreation and Community Affairs.<ul><li>Restrooms Available<li>Pet Friendly - Dogs must be on leash</li><li>Acreage: 8</li><li>Hours: 5:30AM to 10:00PM</li><li>Parking: 🚙🚙🚙</li><li>Website: <a href='https://www.cliftonpark.org/departments/parks-recreation-community-affairs/parks/67-parks.html' target='_blank'>https://www.cliftonpark.org/index.php/departments/parks-recreation-community-affairs/parks/</a></li></ul>",
+        text: "Collins park is near the intersection of Moe Rod and Route 146. Collins has a ball field,playground, nature trail, picnic areas, pavilion, and open-space areas for a variety of sporting activities and family gatherings. Reservations for group use may be made by calling the Clifton Park Town Office of Parks, Recreation and Community Affairs.<ul><li>LLAMA Challenge:</li><li>Restrooms Available<li>Pet Friendly - Dogs must be on leash</li><li>Acreage: 8</li><li>Hours: 5:30AM to 10:00PM</li><li>Parking: 🚙🚙🚙</li><li>Website: <a href='https://www.cliftonpark.org/departments/parks-recreation-community-affairs/parks/67-parks.html' target='_blank'>https://www.cliftonpark.org/index.php/departments/parks-recreation-community-affairs/parks/</a></li></ul>",
         image: "https://fastly.4sqi.net/img/general/200x200/GTU0KE41T0E5KGBGF5G4BPJ1DKWRWJUGH4AJFAG4F2XONR4N.jpg", 
       },
     },
@@ -357,11 +357,11 @@ var mydata = {
     },
     barney: {
       name: "Barney Road Park",
-      coords: "42.84823483049839, -73.80656272709444",
+      coords: "42.84430175674855, -73.80736561189498",
       intersection: false,
       popup: {
         title: "Barney Road Park",
-        text: "The Barney Road Park offers a playground for children. Parking is at the Barney Road pool run by the Town of Clifton Park. The pool has lanes, slide and diving board. There is a small separate pool for very young children. There is also a par-3 golf course nearby.<ul><li>Restrooms Available</li><li>Hours: 7:30AM to 7:30PM</li></ul>",
+        text: "The Barney Road Park offers a playground for children. Parking is at the Barney Road pool run by the Town of Clifton Park. The pool has lanes, slide and diving board. There is a small separate pool for very young children. There is also a par-3 golf course nearby.<ul><li>LLAMA Challenge:</li><li>Restrooms Available</li><li>Hours: 7:30AM to 7:30PM</li></ul>",
         image: "https://cloud.travelpledge.com/UploadFiles/PotentialCourses/Photos/22187/Barney_Road_Golf-photo.jpg",
       },
     },
@@ -371,7 +371,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Halfmoon Town Park",
-        text: "This park was established in 2010. It has gravel walking/biking trails, 3 playgrounds for different age groups, and baseball fields. It also has a splashpark where kids can go play in the water on a hot summer day. It's also a great place to take your dog for a walk. There's also an ice cream place that you can walk to from the park.  <ul><li>Restrooms Available<li>Pet Friendly - Dogs must be on a leash <li>Hours: 6am to 10pm<li>Parking: 🚙🚙🚙</li></ul>",
+        text: "This park was established in 2010. It has gravel walking/biking trails, 3 playgrounds for different age groups, and baseball fields. It also has a splashpark where kids can go play in the water on a hot summer day. It's also a great place to take your dog for a walk. There's also an ice cream place that you can walk to from the park.  <ul><li>LLAMA Challenge: not allowed to put up flyer, pictures can be used instead</li><li>Restrooms Available<li>Pet Friendly - Dogs must be on a leash <li>Hours: 6am to 10pm<li>Parking: 🚙🚙🚙</li></ul>",
         image: "https://capitaldistrictmoms.com/wp-content/uploads/2019/05/img_4169.jpg",
       },
     },
@@ -381,17 +381,17 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Harris Park",
-        text: "Harris park is a large park in Halfmoon that has a small playground and many athletic fields.<ul><li>Parking: 🚙🚙🚙🚙</li><li>One basketball court</li><li>Two tennis courts</li><li>Two volleyball courts</li><li>Two baseball fields</li><li>One soccer field</li></ul>",
+        text: "Harris park is a large park in Halfmoon that has a small playground and many athletic fields.<ul><li>LLAMA Challenge: not allowed to put up flyer, pictures can be used instead</li><li>Parking: 🚙🚙🚙🚙</li><li>One basketball court</li><li>Two tennis courts</li><li>Two volleyball courts</li><li>Two baseball fields</li><li>One soccer field</li></ul>",
         image: "https://cliftonpark.org/images/igallery/resized/1-100/foot_bridge_barney_road_executive_golf_course-75-800-600-80.jpg",
       },
     },
     locust_lane: {
-      name: "Locust Lane Park",
-      coords: "42.85618698285853, -73.80813010376367",
+      name: "Locust Lane/Clifton Knoll Park",
+      coords: "42.8566808461878, -73.80906844205582",
       intersection: false,
       popup: {
-        title: "Locust Lane Park",
-        text: "This park has a playarea for younger children, an open field and tennis courts nearby. The Locus Lane Town pool is adjacent to the park and is where visitors should park. The pool has a lanes and a diving board. There is a small pool for very young children. It also has a bathhouse. Membership to use the pool during the summer months can be obtained through teh Town of Clifton Park. Town sponsored summer camps are located here.  <ul><li>Restrooms Available<li>Parking:🚙🚙🚙🚙</li></ul>",
+        title: "Locust Lane/Clifton Knoll Park",
+        text: "This park has a play area for younger children, an open field and tennis courts nearby. The Locus Lane Town pool is adjacent to the park and is where visitors should park. The pool has a lanes and a diving board. There is a small pool for very young children. It also has a bathhouse. Membership to use the pool during the summer months can be obtained through the Town of Clifton Park. Town sponsored summer camps are located here.  <ul><li>LLAMA Challenge:</li><li>Restrooms Available<li>Parking:🚙🚙🚙🚙</li></ul>",
         image: "https://lh5.googleusercontent.com/p/AF1QipNvFYtQ5mWDdj3QmeNRvmSJH68CM3OBxiWlX7pS=w408-h544-k-no",
       },
     },
@@ -401,7 +401,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Shenantaha Creek Park",
-        text: "This park has basketball courts, volleyball courts, playgrounds, multiple pavilions with picnic tables that you can reserve, bathrooms, and walking paths you can take. It also has frisbee golf. Summer camps and events are held here a lot. The Zim Smith Trail goes by this park. It is also near the Indian Mortar Trail.<ul><li>Restrooms Available<li>Pet Friendly - pets must be leashed and are allowed on trails, but not allowed on active areas of the park.</li><li> Acreage: 56.1</li><li>Hours: 7:30AM to sunset</li><li>Parking:🚙🚙🚙🚙</li><li>Website: <a href='https://www.malta-town.org/Facilities/Facility/Details/3' target='_blank'>https://www.malta-town.org/Facilities/Facility/Details/3</a></li></ul>",
+        text: "This park has basketball courts, volleyball courts, playgrounds, multiple pavilions with picnic tables that you can reserve, bathrooms, and walking paths you can take. It also has frisbee golf. Summer camps and events are held here a lot. The Zim Smith Trail goes by this park. It is also near the Indian Mortar Trail.<ul><li>LLAMA Challenge: flyer on park info board to right of entrance and front of parking lot</li><li>Restrooms Available<li>Pet Friendly - pets must be leashed and are allowed on trails, but not allowed on active areas of the park.</li><li> Acreage: 56.1</li><li>Hours: 7:30AM to sunset</li><li>Parking:🚙🚙🚙🚙</li><li>Website: <a href='https://www.malta-town.org/Facilities/Facility/Details/3' target='_blank'>https://www.malta-town.org/Facilities/Facility/Details/3</a></li></ul>",
         image: "https://upload.wikimedia.org/wikipedia/commons/2/22/Shenantaha_Creek_Park_sign.jpg",
       },
     },
@@ -411,7 +411,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Abele Memorial Park",
-        text: "The area of Abele Memorial Park was dedicated in honor of Jack Abele. It has a gazebo, a 9/11 memorial, benches, walkways, and a parking area. It is a nice and quiet place to relax.<ul><li>Parking: 🚙</li><li>Website: <a href='https://www.townofhalfmoon-ny.gov/parks-recreation-areas/pages/abele-memorial-park' target='_blank'>https://www.townofhalfmoon-ny.gov/parks-recreation-areas/pages/abele-memorial-park</a></li></ul>",
+        text: "The area of Abele Memorial Park was dedicated in honor of Jack Abele. It has a gazebo, a 9/11 memorial, benches, walkways, and a parking area. It is a nice and quiet place to relax.<ul><li>LLAMA Challenge: not allowed to put up flyer, pictures can be used instead</li><li>Parking: 🚙</li><li>Website: <a href='https://www.townofhalfmoon-ny.gov/parks-recreation-areas/pages/abele-memorial-park' target='_blank'>https://www.townofhalfmoon-ny.gov/parks-recreation-areas/pages/abele-memorial-park</a></li></ul>",
         image: "https://www.townofhalfmoon-ny.gov/sites/g/files/vyhlif4491/f/u71/25.jpg",
       },
     },
@@ -421,7 +421,7 @@ var mydata = {
       intersection: false,
       popup: {
         title: "Burning Bush Park & Pool",
-        text: "This is a nice and quiet neighborhood park. It has many trails and sidewalks. It is a great place to take a stroll or join friends for a game of ball. Features include: a basketball court, a baseball field, a tennis court, and a playground.There is a town pool next to the park. You can become a member to the pool through the Town of Clifton Park. <ul><li>Restrooms Available<li>Pet friendly</li><li>Acreage: unknown</li><li>Hours: dawn to dusk</li><li>Parking: 🚙🚙🚙</li></ul>",   
+        text: "This is a nice and quiet neighborhood park. It has many trails and sidewalks. It is a great place to take a stroll or join friends for a game of ball. Features include: a basketball court, a baseball field, a tennis court, and a playground.There is a town pool next to the park. You can become a member to the pool through the Town of Clifton Park.<ul><li>LLAMA Challenge: flyer is on big tree on left of parking lot close to and facing road</li><li>Restrooms Available<li>Pet friendly</li><li>Acreage: unknown</li><li>Hours: dawn to dusk</li><li>Parking: 🚙🚙🚙</li></ul>",   
         image: "https://parksrec.egov.basgov.com/TenantContent/cliftonpark/pools/1_Pool_2.jpg",
       },
     },
@@ -451,7 +451,7 @@ var mydata = {
       intersection: false,
        popup: {
         title: "Mohawk Landing Nature Preserve",
-        text: "This truly lovely preserve is located next to Riverview Orchards.<ul><li>Pet friendly - Dogs must be on leash</li><li>Acreage: unknown</li><li>Hours: dawn to dusk</li><li>Parking 🚙🚙</li></ul>",
+        text: "This truly lovely preserve is located next to Riverview Orchards.<ul><li>LLAMA Challenge:</li><li>Pet friendly - Dogs must be on leash</li><li>Acreage: unknown</li><li>Hours: dawn to dusk</li><li>Parking 🚙🚙</li></ul>",
           image: "pics/mohawklanding.jpeg",
       },
     },
