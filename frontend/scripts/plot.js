@@ -121,10 +121,18 @@ function plot(){
     addAllPlaces(filter){
       Object.entries(mydata.points).forEach(obj => {
         var point = obj[1];
-        var filtertext = point.name.toUpperCase().split(" ").join("");
-        var newfilter = filter.toUpperCase().split(" ").join("");
-        if(point.popup && filtertext.indexOf(newfilter) > -1){
-          this.addToList(point.name);
+        if(point.intersection == false){
+          var filtertext = point.name.toUpperCase().split(" ").join("");
+          var newfilter = filter.toUpperCase().split(" ").join("");
+          if(newfilter == ""){
+            if(point.popup){
+              this.addToList(point.name);
+            }
+          }else{
+            if(point.popup && filtertext.indexOf(newfilter) > -1){
+              this.addToList(point.name);
+            }
+          }
         }
       });
     }

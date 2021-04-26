@@ -1,0 +1,12 @@
+{
+  "users": {
+    "places": {
+      "person@personmail.com": [
+        "place person visited"
+      ]
+    },
+    "initials": {
+      "person@personmail.com": "pp"
+    }
+  }
+}

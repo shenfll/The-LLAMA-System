@@ -247,11 +247,11 @@ map.add('42.917542, -73.782060', 'ushers_zim', "Usher's Road State Park at Zim S
 map.add('42.861632, -73.794722', 'shen_moe', "Shen at Moe Road", intersectionMarker);
 map.add('42.868645, -73.808289', "shen_146", "Shen at Route 146", intersectionMarker);
 map.add('42.861280, -73.811113', "skano", "Skano Elementary");
-map.add('42.794335, -73.831102', "towpath_ferry", "Towpath at Ferry Road");
-map.add('42.806818, -73.841494', "towpath_lock7", "Towpath at Lock 7");
-map.add('42.802823, -73.842179', "towpath_powerlines", 'Towpath at power lines');
-map.add('42.786197, -73.818623', "towpath_middle", "Towpath Middle");
-map.add('42.792846, -73.796107', "towpath_van_vranken", "Towpath at Van Vranken Road");
+map.add('42.794335, -73.831102', "towpath_ferry", "Towpath at Ferry Road", intersectionMarker);
+map.add('42.806818, -73.841494', "towpath_lock7", "Towpath at Lock 7", intersectionMarker);
+map.add('42.802823, -73.842179', "towpath_powerlines", 'Towpath at power lines', intersectionMarker);
+map.add('42.786197, -73.818623', "towpath_middle", "Towpath Middle", intersectionMarker);
+map.add('42.792846, -73.796107', "towpath_van_vranken", "Towpath at Van Vranken Road", intersectionMarker);
 map.add('42.861553, -73.794231', "new_park_west", "New Park West", intersectionMarker);
 map.add('42.861458, -73.785935', "new_park_east", "New Park East", intersectionMarker);
 map.add('42.834669, -73.793938', "balsam_moe", "Balsam Way moe entrance");
@@ -278,12 +278,12 @@ map.add('42.905219, -73.778082', 'ushers_rt9', 'Ushers Road at Route 9', interse
 map.add('42.910311, -73.818677', 'ushers_ridge', 'Ushers Road at Ridge Lane', intersectionMarker);
 map.add('42.832847, -73.794143', 'moe_englemore', 'Moe Road at Vischer Ferry Fire District', intersectionMarker);
 map.add('42.865644, -73.794052', 'moe_146', 'Moe Road at Route 146', intersectionMarker);
-map.add('42.806330, -73.752250', 'towpath_beach', 'Towpath Road at Beach Road');
+map.add('42.806330, -73.752250', 'towpath_beach', 'Towpath Road at Beach Road', intersectionMarker);
 map.add('42.822922, -73.735610', 'oldCanal_ferry', 'Old Canal Road at Vischer Ferry Road', intersectionMarker);
 map.add('42.863170, -73.769206', '146_9', 'Route 146 at Route 9', intersectionMarker);
 map.add('42.870236, -73.820180', '146_146A', '146 at Cumberland Farms', intersectionMarker);
-map.add('42.796804, -73.787810', 'towpath_riverview', 'Towpath at Riverview Road');
-map.add('42.790951, -73.771779', 'towpath_end', 'Towpath End');
+map.add('42.796804, -73.787810', 'towpath_riverview', 'Towpath at Riverview Road', intersectionMarker);
+map.add('42.790951, -73.771779', 'towpath_end', 'Towpath End', intersectionMarker);
 
 map.addPath([
   '42.885898, -73.842047',
@@ -473,7 +473,7 @@ if (window.location.search.indexOf("point") > -1) {
   modal.style.display = "block";
 }
 function sendit(initials, email, park) {
-  var url = "https://validate.jonahmorgan1.repl.co/";
+  var url = "https://llamasystem.org:4040";
   var xhr = new XMLHttpRequest();
   xhr.open("POST", url);
   xhr.setRequestHeader("Content-Type", "application/xml");
