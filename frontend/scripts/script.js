@@ -469,7 +469,7 @@ if (window.location.search.indexOf("point") > -1) {
   modaltitle.innerHTML = comli.popup.title;
   modaltext.innerHTML = comli.popup.text;
   modalimg.src = comli.popup.image;
-  modaldir.href = "https://directions-api.jonahmorgan1.repl.co/?point=" + comli.coords + "";
+  modaldir.href = "https://directions-api.jonahmorgan1.repl.co/?place=" + comli.coords + "";
   modal.style.display = "block";
 }
 function sendit(initials, email, park) {
@@ -494,9 +494,11 @@ function markitdownform(place) {
   var subinput = document.getElementById("subinput");
   var subinput2 = document.getElementById("subinput2");
   sub.onclick = function () {
-    if (subinput.value) {
+    if (subinput.value && subinput2.value) {
       sendit(subinput2.value, subinput.value, place);
       modal3.style.display = "none";
+    } else {
+      alert("please fill in both form fields before submitting");
     }
   }
 }

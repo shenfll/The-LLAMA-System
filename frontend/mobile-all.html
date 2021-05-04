@@ -1,5 +1,5 @@
 <!DOCTYPE html />
-<html>
+<html lang="en">
 
 <head>
 	<title>The LLAMA System - Robotic Renovators</title>
@@ -8,11 +8,21 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="#77f">
   <meta name="msapplication-navbutton-color" content="#77f">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
 	<meta charset="utf-8" />
+  <meta name="description" content="The purpose of this website is to promote healthy activity through a challenge and to educate our community by providing information about existing parks, trails,and nature preserves in the Shenendehowa Central School District. This community is located in Saratoga County, New York State.">
+  <style>
+    html::before {
+      content: "loading...";
+    }
+  </style>
+  <link rel="preload" href="scripts/data.js" as="script">
+  <link rel="preload" href="scripts/script.js" as="script">
+  <link rel="preload" href="scripts/hitcount.js" as="script">
+  <link rel="preload" href="scripts/plot.js" as="script">
+  <link rel="preload" href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js" as="script">
+  <link rel="preload" href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" as="style">
 	<link rel="stylesheet" href="styles/style-mobile.css">
-  <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 
 <body>
@@ -22,7 +32,7 @@
     <div>
       <h1>modaltitle</h1>
       <p>modaltext</p>
-      <a target="_blank">Directions</a>
+      <a href="https://directions-api.jonahmorgan1.repl.co/" target="_blank">Directions</a>
     </div>
     <img src="images/Untitled70.png"/>
   </div>
@@ -58,6 +68,7 @@
 <a href="https://shenendehowafll.wixsite.com/club" class="button" id="home">Club Homepage</a>
 <a href="/challenge.html" class="button">Click here for the LLAMA challenge</a>
 <a href="/bio.html" class="button" id="story">Our Story</a>
+<a href="/news.html" class="button" id="story">Llama News</a>
 </div>
 <div id="wrap" style="margin: 0px;">
 <div id="content">
@@ -65,25 +76,28 @@
 </div>
 <div id="side">
 <h2>Legend</h2>
-<ul style="list-style-type: square;">
-	<hr>
+  <hr>
 	<b>Existing Parks, Trails, and Nature Preserves</b>
-    <li><span style="color: #ff4444">Red</span> Markers: Parks, Trails, and Nature Preserves (Locations are represented as markers. Click on one to find out more.)</li>
-	<li><span style="color: #4444ff">Blue</span> Lines: Connection Via Existing Path(s) and sidewalks</li>
-  <!--<li><span style="color: #4444ff">Blue</span> Markers: Waypoints</li>-->
+  <ul style="list-style-type: square; list-style-position: inside; padding-left: 0px;">
+  <li><span style="color: #f88">Red</span> Markers: Parks, Trails, and Nature Preserves Locations are represented as markers. Zoom in to 100m to see detail of trails and click on marker to find out more.</li>
+	<li><span style="color: #88f">Blue</span> Lines: Connection Via Existing Path(s) and sidewalks.</li>
+  </ul>
 	<hr>
 	<b>Potential Paths</b>
-    <li><span style="color: #44ff44">Green</span> Lines: Shortest straight line connections (chosen by our algorithm)</li>
-	<li><span style="color: #ff4444">Red</span> Lines: Possible route for new trail (chosen by our team)</li>
+  <ul style="list-style-type: square; list-style-position: inside; padding-left: 0px;">
+  <li><span style="color: #8f8">Green</span> Lines: Shortest straight line between connections (determined by our algorithm)</li>
+	<li><span style="color: #f88">Red</span> Lines: Possible route for new trail</li>
+  </ul>
 	<hr>
-</ul>
-<img src="images/Untitled70.png" alt="Our logo" width="150" id="logo"/>
+<img src="images/Untitled70.png" alt="Our logo" width="150" height="150" id="logo"/>
 <h3>The page is called TEA LLAMA. TEA stands for Trail Efficiency Algorithm.The new connections visible only on this page are computed by a minimum spanning tree algorithm linking existing trails, parks, and nature preserves. The lines show the most direct path. As we identify paths that cross terrain that is not permitted (examples include crossing highways, rivers, private property) we will insert way points so the algorithm computes new lines. Providing this information is intended to encourage residents of our community to use our local parks, trails, and nature preserves and a general healthy lifestyle. We define our community as the municipalities within the Shenendehowa Central School District. This community is located in Saratoga County, New York State.
 </h3>
 <a href="../mobile.html" class="button">BACK - Back to main page</a>
-<h3> <a href="https://en.wikipedia.org/wiki/Woodie_Flowers" class="button" target="_blank">We dedicate our site in memory of co-creator of FIRST, Woodie Claude Flowers</a><h5></h5></h3><br><br><br>
+<h3>We dedicate our site in memory of the co-creator of FIRST, <a href="https://en.wikipedia.org/wiki/Woodie_Flowers" class="button" target="_blank" rel="noreferrer">Woodie Claude Flowers</a></h3><br><br><br>
 </div>
 </div>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
   <script src="scripts/data.js"></script>
   <script src="scripts/plot.js"></script>
   <script src="scripts/script.js"></script>

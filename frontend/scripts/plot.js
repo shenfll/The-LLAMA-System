@@ -42,7 +42,7 @@ function plot(){
       this._btn = document.createElement("button");
       this._btn.className = "mapboxgl-ctrl-icon mapboxgl-ctrl-pitchtoggle-3d";
       this._btn.type = "button";
-      this._btn["aria-label"] = "Toggle 3d View";
+      this._btn.setAttribute("aria-label", "Toggle 3d View");
       this._btn.onclick = () => {
         if (map.getPitch() === 0) {
           let options = { pitch: this._pitch };
@@ -77,13 +77,12 @@ function plot(){
       this._btn = document.createElement("button");
       this._btn.className = "mapboxgl-ctrl-icon mapboxgl-ctrl-search";
       this._btn.type = "button";
-      this._btn["aria-label"] = "Search Bar";
+      this._btn.setAttribute("aria-label", "Search Bar");
 
       this._input = document.createElement("input");
       this._input.type = "text";
       this._input.className = "mapboxgl-ctrl-search-input";
       this._input.placeholder = "Search for parks";
-      this._input["aria-hidden"] = "true";
       this._btn.appendChild(this._input);
 
       this._container = document.createElement("div");
@@ -170,7 +169,7 @@ function plot(){
       this._btn = document.createElement("button");
       this._btn.className = "mapboxgl-ctrl-icon mapboxgl-ctrl-terrain";
       this._btn.type = "button";
-      this._btn["aria-label"] = "Enable Terrain";
+      this._btn.setAttribute("aria-label", "Enable Terrain");
 
       this._btn.onclick = () => {
         terrain();
@@ -200,7 +199,7 @@ function plot(){
       this._btn = document.createElement("button");
       this._btn.className = "mapboxgl-ctrl-icon mapboxgl-ctrl-styletoggle-satellite";
       this._btn.type = "button";
-      this._btn["aria-label"] = "Toggle Map Style";
+      this._btn.setAttribute("aria-label", "Toggle Map Style");
       this._btn.onclick = () => {
         if(this._style == "outdoors-v11"){
           map.setStyle("mapbox://styles/mapbox/satellite-v9");
@@ -253,6 +252,8 @@ function plot(){
         }
       }
     });
+    document.querySelector("#map > div.mapboxgl-control-container > div.mapboxgl-ctrl-bottom-right > div > div > a:nth-child(1)").rel = "noreferrer";
+    document.querySelector("#map > div.mapboxgl-control-container > div.mapboxgl-ctrl-bottom-right > div > div > a:nth-child(2)").rel = "noreferrer";
   }
   map.on('style.load', function(){
     map.loadImage('images/place2.png', function (error, image) {
